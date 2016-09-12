@@ -1,0 +1,157 @@
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Bat City Theme*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 08-01-2016*/
+/* Author: Raquel Burroughs*/
+/* Website: www.batcity.com
+/* Copyright: (C) 2016 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------*/
+/* TABLE OF CONTENTS: */
+/*--------------------------------------------------------*/
+/* 01 - RESET STYLES */
+/* 02 - GLOBAL SETTINGS */
+/* 03 - HEADER */
+/* 04 - FOOTER */
+/* 05 - INDEX-PAGE */
+/* 06 - PRODUCT LIST */
+/* 07 - PRODUCT DETAIL */
+/* 08 - GALLERY */
+/* 09 - GALLERY DETAIL */
+/* 10 - BLOG */
+/* 11 - BLOG GRID */
+/* 12 - BLOG DETAIL */
+/* 13 - CONTACT */
+/* 14 - BORDER-IMAGE */
+/* 15 - TT-SUCCESS */
+/* 16 - TT-SUCCESS TYPE-2*/
+/* 17 - TT-TEAM */
+/* 18 - TT-COUNTER */
+/* 19 - TT-VIDEO-DESC */
+/* 20 - TT-TESMIMONALS */
+/* 21 - CALL-ACTION */
+/* 22 - TT-CONTACT */
+/* 23 - TT-ABOUT-TEXT */
+/* 24 - TT-PRODUCT */
+/* 25 - TT-PRODUCT TYPE-2 */
+/* 26 - TT-PRODUCT-2 */
+/* 27 - TT-CLIENT */
+/* 28 - TT-TAB-WRAPPER*/
+/* 29 - TT-SERVICE-POST*/
+/* 30 - TT-FEATURE*/
+/* 31 - TT-FEATURE-2*/
+/* 32 - TT-PRICE*/
+/* 33 - TT-SEARCH*/
+/* 34 - TT-SEARCH-2*/
+/* 35 - TT-SEARCH*/
+/* 36 - TT-PROGRESS*/
+/* 37 - MEDIA QUERIES */
+/* 38 - CSS ANIMATIONS */
+/* 39 - FONT OPEN SANS */
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* 01 - RESET STYLES */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+.login .fa {
+    color: #ff5912;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: central;
+    padding-right: 10px;
+}
+
+.login a:first-child:after {
+    content: '';
+    position: absolute;
+    right: 0;
+}
+
+.logo {
+	float:left;
+	width:15%;
+}
+#logo img,
+#logo-lg img {
+	max-width:150px;
+	}
+	
+#logo-lg {
+	position:relative;
+	width:25%;
+	z-index:3;
+}
+
+.header-bottom {
+	position:relative;
+	border-top:1px solid #f2f2f2;
+	border-bottom:transparent;
+	background:#fff;
+	}
+
+
+.orange {
+	color: #ff5912
+}
+
+.search input:focus,
+.simple-area.color-1:focus,
+.simple-area.color-2:focus,
+.simple-input.color-3:focus {
+	border-color: #ff8112;
+}
+
+.search input,
+.simple-area.color-2,
+.simple-input.color-3 {
+    color: #34404b;
+    border-color: #495662;
+}
+
+.search input::-webkit-input-placeholder,
+.simple-area.color-2::-webkit-input-placeholder,
+.simple-input.color-3::-webkit-input-placeholder {
+	color: #495662;
+	}
+
+.lgrey {
+	background-color:#f4f6f8
+}
+
+
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('../fonts/Gotham/gotham-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/Gotham/gotham-bold-webfont.woff') format('woff'), /* Modern Browsers */
+     url('../fonts/Gotham/gotham-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/Gotham/gotham-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 700;
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('../fonts/Gotham/gotham-medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/Gotham/gotham-medium-webfont.woff') format('woff'), /* Modern Browsers */
+     url('../fonts/Gotham/gotham-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/Gotham/gotham-medium-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 400;
+   font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Gotham Thin';
+  src: url('../fonts/Gotham/gotham-thin-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/Gotham/gotham-thin-webfont.woff') format('woff'), /* Modern Browsers */
+     url('../fonts/Gotham/gotham-thin-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/Gotham/gotham-thin-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 300;
+   font-style: normal;
+ }
